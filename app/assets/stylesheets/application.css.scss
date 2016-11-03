@@ -23,10 +23,9 @@
   box-shadow: rgba(0,0,0,0.09) 0 2px 0;
 }
 
-$orange: #FB8D42;
-$yellow: #F7D02B;
+$main: #94BA43;
+$secondary: #FD8B1E;
 $light: #F3F7FA;
-$green: #677D34;
 
 body {
   background: $light;
@@ -56,16 +55,16 @@ body {
     font-size: 25px;
     font-weight: bold;
     a {
-      color: $orange;
+      color: $main;
     }
   }
 }
 
 .recipe {
-  background: $light;
+  background: white;
   border-radius: 5px;
   margin-bottom: 40px;
-  @@include box-shadow;
+  @include box-shadow;
   .image_wrapper {
     max-width: 100%;
     border-radius: 5px 5px 0 0;
@@ -88,7 +87,11 @@ body {
     font-weight: normal;
     line-height: 1.5;
     a {
-      color: $orange;
+      color: $main;
+      font-weight: bold;
+    }
+    a:hover {
+      color: gray;
     }
   }
 }
@@ -99,25 +102,25 @@ body {
 
 #recipe_info, #ingredients, #directions {
   background: $light;
-  @@include box-shadow;
+  @include box-shadow;
   min-height: 360px;
-  border-radius: 5px
+  border-radius: 5px;
   padding: 2em 8%;
 }
 
 .recipe_image {
   max-width: 100%;
-  @@include box-shadow;
+  @include box-shadow;
   border-radius: 5px;
 }
 
 #recipe_info {
   h1 {
     font-size: 36px;
-    color: $orange;
+    color: $main;
   }
   .description {
-    color: $green;
+    color: $main;
     font-size: 20px;
   }
 }
