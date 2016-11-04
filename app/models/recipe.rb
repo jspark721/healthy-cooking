@@ -2,6 +2,7 @@ class Recipe < ActiveRecord::Base
 
   has_many :ingredients
   has_many :directions
+  belongs_to :user
   validates :title, :description, :image, presence: true
 
   has_attached_file :image, styles: { medium: "400x400#"}
