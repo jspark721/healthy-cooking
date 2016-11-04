@@ -1,5 +1,12 @@
-== README: Healthy Cooking
-
+# README
+## Healthy Cooking
 Healthy food recipe web application
 
-* Ruby on Rails
+## Made with Ruby on Rails
+
+### Gems used
+* Devise gem for user authentication
+* Cocoon gem for creating dynamic nested forms
+* Paperclip gem for image uploading
+* Bootstrap-sass for styling
+* Haml documentation
