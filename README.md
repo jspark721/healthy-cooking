@@ -1,5 +1,5 @@
 # README: Healthy Cooking
-## Healthy food recipes web application - cooking healthy can also be yummy!
+## Healthy food recipes web app - cooking healthy can also be delicious and fun!
 
 ### Made with Ruby on Rails
 
