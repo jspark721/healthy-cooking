@@ -41,8 +41,9 @@ body {
   border-radius: 5px;
   border: 1px solid transparent;
   @include box-shadow;
-  background: $light;
-  font-weight: bold;
+  background-color: $main;
+  color: white;
+  font-weight: normal;
 }
 
 .navbar {
