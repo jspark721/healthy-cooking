@@ -1,7 +1,7 @@
 # README: Healthy Cooking
-### Healthy food recipe web application
+## Healthy food recipes web application - cooking healthy can also be yummy!
 
-## Made with Ruby on Rails
+### Made with Ruby on Rails
 
 ### Gems
 * Devise gem for user authentication
@@ -14,4 +14,4 @@
 * Users can sign up for an account to create new recipes
 * Users can upload images and share recipes
 * Users can like other users recipes by clicking on heart button
-* Recipes are ordered from most liked 
+* Recipes are ordered from most liked
