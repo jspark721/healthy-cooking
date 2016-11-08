@@ -13,5 +13,5 @@
 ### Features
 * Users can sign up for an account to create new recipes
 * Users can upload images and share recipes
-* Users can like other users recipes by clicking on heart button
-* Recipes are ordered from most liked
+* Users can like other users recipes by clicking on heart button (in progress)
+* Recipes are ordered from most liked (in progress)

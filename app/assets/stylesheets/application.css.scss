@@ -47,24 +47,48 @@ body {
 }
 
 .navbar {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   @include box-shadow;
   border: none;
+  .navbar-brand:hover {
+    text-decoration: none !important;
+    opacity: 0.3;
+  }
   .navbar-brand {
     text-transform: uppercase;
     letter-spacing: -1px;
-    font-size: 25px;
+    font-size: 28px;
+    text-decoration: none;
     font-weight: bold;
+    margin-top: 7px;
     a {
       color: $main;
+      text-decoration: none;
     }
   }
+}
+.signup_btn:hover {
+  background-color: $secondary !important;
+  opacity: 0.3;
+}
+.signup_btn {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: .8em;
+  border: none;
+  border-radius: 3px;
+  background-color: $secondary;
+  color: white !important;
+  margin: 7px 10px 7px 0px;
+}
+.signup_btn:hover {
+  background: $secondary;
 }
 
 .recipe {
   background: white;
   border-radius: 5px;
-  margin-bottom: 40px;
+  margin: 10px 0px 40px 0px;
   @include box-shadow;
   .image_wrapper {
     max-width: 100%;
@@ -84,15 +108,17 @@ body {
   h2 {
     padding: 15px 5%;
     margin: 0;
-    font-size: 20px;
-    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: lighter;
     line-height: 1.5;
     a {
       color: $main;
       font-weight: bold;
     }
     a:hover {
-      color: gray;
+      opacity: 0.3;
+      text-decoration: none !important;
     }
   }
 }
