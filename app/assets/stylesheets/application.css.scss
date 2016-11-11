@@ -86,9 +86,9 @@ body {
 }
 
 .recipe {
-  background: white;
+  background: $main;
   border-radius: 5px;
-  margin: 10px 0px 40px 0px;
+  margin: 10px 0px 10px 0px;
   @include box-shadow;
   .image_wrapper {
     max-width: 100%;
@@ -106,14 +106,14 @@ body {
     }
   }
   h2 {
-    padding: 15px 5%;
+    padding: 10px 5%;
     margin: 0;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: lighter;
     line-height: 1.5;
     a {
-      color: $main;
+      color: white;
       font-weight: bold;
     }
     a:hover {
